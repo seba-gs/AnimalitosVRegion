@@ -15,8 +15,18 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="">Inicio</a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="">Catalogo</a>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Catalogo
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="#">Fotografias</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">Videos</a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="nav-item active" href="">
                     <a class="nav-link" href="">Chat</a>

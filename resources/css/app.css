@@ -1,0 +1,12 @@
+.flex-container {
+    display: flex;
+    width: 600px;
+    background-color: #DDF58C;
+}
+
+.flex-item {
+    background-color: #67C3E6;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

@@ -27,7 +27,6 @@
                 <li class="nav-item active" href="">
                     <a class="nav-link" href="">Patrocinadores</a>
                 </li>
-                <li>eliminar luego</li>
             </ul>
             <ul class="navbar-nav">
                 <form class="d-flex">

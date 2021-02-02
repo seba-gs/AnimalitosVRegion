@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controller\{loginController, registroController};
+use App\Http\Controller\{loginController, registroController, generalController};
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +20,5 @@ Route::get('/', function () {
 Route::get('/iniciosesion', [App\Http\Controllers\loginController::class, 'login'])->name('login');
 
 Route::get('/registrar', [App\Http\Controllers\registroController::class, 'registro'])->name('registro');
+
+Route::get('/bienvenido', [App\Http\Controllers\generalController::class, 'inicio'])->name('index');

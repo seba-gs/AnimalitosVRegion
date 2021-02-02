@@ -10,3 +10,17 @@
     height: 100px;
     margin: 10px;
 }
+.main-section{
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+}
+
+.user-image{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+.user-image image{
+    width: 100px;
+    height: 100px;
+}

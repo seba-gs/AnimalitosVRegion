@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controller\{loginController};
+use App\Http\Controller\{loginController, registroController};
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +18,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/iniciosesion', [App\Http\Controllers\loginController::class, 'login'])->name('login');
+
+Route::get('/registrar', [App\Http\Controllers\registroController::class, 'registro'])->name('registro');

@@ -10,13 +10,22 @@
                     <div class="form-group" id="user-group">
                         <input type="text" class="form-control" placeholder="Nombre de Usuario">
                     </div>
+                    <div class="form-group" id="rut-group">
+                        <input type="text" class="form-control" placeholder="Rut">
+                    </div>
+                    <div class="form-group" id="edad-group">
+                        <input type="text" class="form-control" placeholder="dd-mm-aaaa">
+                    </div>
+                    <div class="form-group" id="email-group">
+                        <input type="email" class="form-control" placeholder="Correo electronico">
+                    </div>
                     <div class="form-group" id="pass-group">
                         <input type="password" class="form-control" placeholder="Contraseña">
                     </div>
-                    <button type="submit" class="btn btn-dark"><i class="fas fa-sign-in-alt"></i>  Iniciar sesion</button>
+                    <button type="submit" class="btn btn-dark"><i class="fas fa-sign-in-alt"></i>  Registrarse</button>
                 </form>
                 <div class="col-12 forgot">
-                    <a href="#" >Recordar contraseña</a>
+                  
                 </div>
             </div>
         </div>

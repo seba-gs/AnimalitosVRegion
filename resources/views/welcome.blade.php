@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
     <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="resources\css\app.css">
+    <link rel="stylesheet" type="text/css" href="css/app.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,7 +46,7 @@
                     <a class="nav-link" href="{{route('login')}}">iniciar sesion</a>
                 </li>
                 <li class="nav-item active" href="">
-                    <a class="nav-link" href="">registrarse</a>
+                    <a class="nav-link" href="{{route('registro')}}">registrarse</a>
                 </li>
             </ul>
         </div>

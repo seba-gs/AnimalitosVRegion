@@ -6,21 +6,25 @@
                 <div class="col-12 user-image">
                     <img src="images\usuario.png">
                 </div>
-                <form action="" class="col-12">
+                <form action="" class="col-12" method="POST" action="">
+                    @csrf
                     <div class="form-group" id="user-group">
-                        <input type="text" class="form-control" placeholder="Nombre de Usuario">
+                        <input type="text" class="form-control" placeholder="Nombre" name="nombre">
+                    </div>
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Apellido" name="apellido">
+                    </div>
+                    <div class="form-group" id="user-group">
+                        <input type="text" class="form-control" placeholder="Nombre de usuario" name="nomUsuario">
                     </div>
                     <div class="form-group" id="rut-group">
-                        <input type="text" class="form-control" placeholder="Rut">
-                    </div>
-                    <div class="form-group" id="edad-group">
-                        <input type="text" class="form-control" placeholder="dd-mm-aaaa">
-                    </div>
-                    <div class="form-group" id="email-group">
-                        <input type="email" class="form-control" placeholder="Correo electronico">
+                        <input type="text" class="form-control" placeholder="Rut" name="rut">
                     </div>
                     <div class="form-group" id="pass-group">
-                        <input type="password" class="form-control" placeholder="Contraseña">
+                        <input type="password" class="form-control" placeholder="Contraseña" name="password">
+                    </div>
+                    <div class="form-group" id="email-group">
+                        <input type="email" class="form-control" placeholder="Correo electronico" name="email">
                     </div>
                     <button type="submit" class="btn btn-dark"><i class="fas fa-sign-in-alt"></i>  Registrarse</button>
                 </form>

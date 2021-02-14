@@ -20,5 +20,6 @@ Route::get('/', function () {
 Route::get('/iniciosesion', [App\Http\Controllers\loginController::class, 'login'])->name('login');
 
 Route::get('/registrar', [App\Http\Controllers\registroController::class, 'registro'])->name('registro');
+Route::post('/registrar', [App\Http\Controllers\registroController::class, 'store'])->name('registro.store');
 
 Route::get('/bienvenido', [App\Http\Controllers\generalController::class, 'inicio'])->name('index');
